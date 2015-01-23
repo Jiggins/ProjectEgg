@@ -18,6 +18,8 @@
 				"/*.csproj",
 				"*.pidb",
 				"*.suo",
+				"*.unity*",
+				"*.cs.meta",
 				"/*.sln",
 				"*.user",
 				"*.unityproj",
