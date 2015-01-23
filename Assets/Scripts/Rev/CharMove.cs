@@ -1,7 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class SunRotate : MonoBehaviour {
+public class CharMove : MonoBehaviour {
+
+	public	float	speed = 10.0f;
 
 	// Use this for initialization
 	void Start () {
