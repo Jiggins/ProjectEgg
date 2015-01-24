@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
 	private float moveHorizontal = 0f;
 	private float moveVertical = 0f;
 	public float jump = 0f;
-	private bool airbourne = false;
+	private bool airbourne = true;
 	
 	// Use this for initialization
 	void Start () {
