@@ -19,9 +19,6 @@ public class CharacterMove : MonoBehaviour {
 	private	Vector3	orientateRight;
 	
 	private	float	distToGround;
-
-	private	bool	pickup 		= false;
-	private	bool	holdingEgg 	= false;
 	
 	void Awake () {
 		playerRigidbody = GetComponent<Rigidbody> ();
@@ -30,6 +27,9 @@ public class CharacterMove : MonoBehaviour {
 
 		characterHands 	= GetComponent<Transform> ();
 	}
+
+	void Update () { 
+	}
 	
 	void FixedUpdate() {
 		// Store the input axes.
@@ -37,8 +37,7 @@ public class CharacterMove : MonoBehaviour {
 		
 		bool jump 		= Input.GetButton ("Jump");
 
-		pickup 			= false;
-		pickup 			= Input.GetButtonDown ("Fire1");
+
 		
 		// Move the player around the scene.
 		Move (h, jump);
@@ -77,21 +76,5 @@ public class CharacterMove : MonoBehaviour {
 	private bool IsGrounded()
 	{
 		return Physics.Raycast(transform.position, -Vector3.up, distToGround + 0.1f);
-	}
-
-	void OnTriggerStay (Collider other){
-		if(!holdingEgg){
-			if(other.CompareTag("Egg") && pickup){
-				Debug.Log ("Touching egg");
-				other.transform.parent = characterHands.transform;
-				other.transform.position = characterHands.transform.position;
-				other.transform.rotation = characterHands.transform.rotation;
-				holdingEgg = true;
-				//other.rigidbody.isKinematic (true);
-			}
-		}
-		if(holdingEgg){
-
-		}
 	}
 }
