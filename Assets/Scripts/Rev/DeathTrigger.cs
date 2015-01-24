@@ -3,13 +3,19 @@ using System.Collections;
 
 public class DeathTrigger : MonoBehaviour {
 
+	private	PlayerDeathRespawn	playerDeathRespawn;
+
 	// Use this for initialization
 	void Start () {
 	
+		playerDeathRespawn = GameObject.FindGameObjectWithTag ("Player").GetComponent<PlayerDeathRespawn> ();
+
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+
+	void OnTriggerEnter (Collider other) {
+		if (other.CompareTag("Player") || other.CompareTag("Egg")){
+			playerDeathRespawn.Death();
+			Debug.Log ("Lovely particle effects for death!");
+		}
 	}
 }

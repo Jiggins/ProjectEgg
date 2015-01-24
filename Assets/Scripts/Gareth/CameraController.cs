@@ -3,7 +3,7 @@ using System.Collections;
 
 public class CameraController : MonoBehaviour {
 	
-	public GameObject player;
+	// public GameObject player;
 	public float smoothTime = 0.7f;
 	private Vector3 velocity = Vector3.zero;
 	public Transform target;
