@@ -456,7 +456,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eece88abff7de284f8cb2794c66d014e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerOn: 0
+  a: {fileID: 0}
   Speed: 15
   jump: 15000
 --- !u!54 &945059228
