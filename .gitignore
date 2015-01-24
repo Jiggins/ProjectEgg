@@ -13,6 +13,7 @@ Library/expandedItems
 Library/metadata
 Library/previews
 Library/guidmapper
+
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
 # ===================================== #
@@ -38,3 +39,8 @@ obj/
 ehthumbs.db
 Thumbs.db
 *.sublime-workspace
+Library/CurrentMaximizeLayout.dwlt
+Library/CurrentMaximizeLayout.dwlt
+Assets/Meshes/Textures/Untitled.png.meta
+Library/CurrentMaximizeLayout.dwlt
+Library/CurrentMaximizeLayout.dwlt
