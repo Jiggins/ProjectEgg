@@ -19,6 +19,8 @@ public class CharacterMove : MonoBehaviour {
 	private	Vector3	orientateRight;
 	
 	private	float	distToGround;
+
+	public	bool	alive = true;
 	
 	void Awake () {
 		playerRigidbody = GetComponent<Rigidbody> ();
@@ -48,19 +50,21 @@ public class CharacterMove : MonoBehaviour {
 	}
 	
 	void Move (float h, bool jump) {
-		// Set the movement vector based on the axis input.
-		movement.Set (h, 0.0f, 0.0f);
-		
-		// Normalise the movement vector and make it proportional to the speed per second.
-		movement = movement.normalized * speed * Time.deltaTime;
-		
-		if(jump && IsGrounded()){
+		if(alive){
+			// Set the movement vector based on the axis input.
+			movement.Set (h, 0.0f, 0.0f);
+			
+			// Normalise the movement vector and make it proportional to the speed per second.
+			movement = movement.normalized * speed * Time.deltaTime;
+			
+			if(jump && IsGrounded()){
 
-			rigidbody.AddForce(new Vector3(0.0f,jumpHeight,0.0f), ForceMode.Impulse);
+				rigidbody.AddForce(new Vector3(0.0f,jumpHeight,0.0f), ForceMode.Impulse);
+			}
+			
+			// Move the player to it's current position plus the movement.
+			playerRigidbody.MovePosition (transform.position + movement);
 		}
-		
-		// Move the player to it's current position plus the movement.
-		playerRigidbody.MovePosition (transform.position + movement);
 	}
 	
 	void Turning (float h) {
