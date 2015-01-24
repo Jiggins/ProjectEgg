@@ -381,6 +381,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   jumpHeight: 1
+  eggCollider: {fileID: 0}
   floorMask:
     serializedVersion: 2
     m_Bits: 0
