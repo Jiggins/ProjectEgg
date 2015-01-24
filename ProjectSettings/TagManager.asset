@@ -7,6 +7,11 @@ TagManager:
   - Egg
   - MovingPlatform
   - Player
+<<<<<<< HEAD
+=======
+  - Switch
+  - SwitchPerm
+>>>>>>> origin/master
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
