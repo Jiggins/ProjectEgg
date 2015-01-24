@@ -13,6 +13,7 @@ Library/expandedItems
 Library/metadata
 Library/previews
 Library/guidmapper
+
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
 # ===================================== #
@@ -41,3 +42,4 @@ Thumbs.db
 Library/CurrentMaximizeLayout.dwlt
 Library/CurrentMaximizeLayout.dwlt
 Assets/Meshes/Textures/Untitled.png.meta
+Library/CurrentMaximizeLayout.dwlt
