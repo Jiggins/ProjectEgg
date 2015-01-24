@@ -3,12 +3,12 @@ using System.Collections;
 
 public class MovingObstacle : MonoBehaviour {
 	
-	
+	public GameObject player;
 	public float speed = 0.01f;
 	public Vector3 distance;
 	private Vector3 startPosition;
 	private Vector3 endPosition;
-	private bool forward;
+	public bool forward;
 	
 	// Use this for initialization
 	void Start () {
@@ -37,16 +37,18 @@ public class MovingObstacle : MonoBehaviour {
 	}
 
 
-	void OnCollisionStay(Collision collision){
+//		void OnTriggerEnter (Collider other){
+//
+//		if (other.tag == "MovingPlatform"){
+////
+////			Vector3 trans = collision.transform.position;
+////
+////			trans.x = transform.position.x;
+////			collision.transform.position = trans;
+//
+//			player.transfrom.position();
+//
+//		}
 
-		if (collision.gameObject.tag == "Player"){
-
-			Vector3 trans = collision.transform.position;
-
-			trans.x = transform.position.x;
-			collision.transform.position = trans;
-
-		}
-
-	}
 }
+
