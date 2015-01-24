@@ -1,7 +1,14 @@
 fileFormatVersion: 2
 guid: 5114f6d17ba99534ab90609ac4fe6884
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: mchar_parts_0
+    21300002: mchar_parts_1
+    21300004: mchar_parts_2
+    21300006: mchar_parts_3
+    21300008: mchar_parts_4
+    21300010: mchar_parts_5
+    21300012: mchar_parts_6
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -21,27 +28,97 @@ TextureImporter:
   grayScaleToAlpha: 0
   generateCubemap: 0
   seamlessCubemap: 0
-  textureFormat: -1
+  textureFormat: -3
   maxTextureSize: 1024
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
-    wrapMode: -1
-  nPOTScale: 1
+    wrapMode: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
-  alphaIsTransparency: 0
-  textureType: -1
+  alphaIsTransparency: 1
+  textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: mchar_parts_0
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 411
+        width: 146
+        height: 139
+      alignment: 9
+      pivot: {x: .5, y: .0500000007}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mchar_parts_1
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 452
+        width: 66
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mchar_parts_2
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 213
+        width: 143
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mchar_parts_3
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 343
+        width: 48
+        height: 46
+      alignment: 4
+      pivot: {x: 0, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mchar_parts_4
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 275
+        width: 53
+        height: 47
+      alignment: 4
+      pivot: {x: 0, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mchar_parts_5
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 172
+        width: 68
+        height: 29
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mchar_parts_6
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 170
+        width: 68
+        height: 29
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
