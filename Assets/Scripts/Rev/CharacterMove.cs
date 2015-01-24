@@ -5,8 +5,6 @@ public class CharacterMove : MonoBehaviour {
 	public float speed = 1.0f;
 	public	float	jumpHeight = 1.0f;
 	private Vector3 movement;
-
-	private Transform characterHands;
 	
 	private Rigidbody playerRigidbody;
 	[SerializeField]
@@ -19,16 +17,14 @@ public class CharacterMove : MonoBehaviour {
 	private	Vector3	orientateRight;
 	
 	private	float	distToGround;
-
-	private	bool	pickup 		= false;
-	private	bool	holdingEgg 	= false;
 	
 	void Awake () {
 		playerRigidbody = GetComponent<Rigidbody> ();
 		
 		distToGround 	= collider.bounds.extents.y;
+	}
 
-		characterHands 	= GetComponent<Transform> ();
+	void Update () { 
 	}
 	
 	void FixedUpdate() {
@@ -37,8 +33,7 @@ public class CharacterMove : MonoBehaviour {
 		
 		bool jump 		= Input.GetButton ("Jump");
 
-		pickup 			= false;
-		pickup 			= Input.GetButtonDown ("Fire1");
+
 		
 		// Move the player around the scene.
 		Move (h, jump);
@@ -54,7 +49,7 @@ public class CharacterMove : MonoBehaviour {
 		movement = movement.normalized * speed * Time.deltaTime;
 		
 		if(jump && IsGrounded()){
-			Debug.Log ("Jumping!");
+
 			rigidbody.AddForce(new Vector3(0.0f,jumpHeight,0.0f), ForceMode.Impulse);
 		}
 		
@@ -77,21 +72,5 @@ public class CharacterMove : MonoBehaviour {
 	private bool IsGrounded()
 	{
 		return Physics.Raycast(transform.position, -Vector3.up, distToGround + 0.1f);
-	}
-
-	void OnTriggerStay (Collider other){
-		if(!holdingEgg){
-			if(other.CompareTag("Egg") && pickup){
-				Debug.Log ("Touching egg");
-				other.transform.parent = characterHands.transform;
-				other.transform.position = characterHands.transform.position;
-				other.transform.rotation = characterHands.transform.rotation;
-				holdingEgg = true;
-				//other.rigidbody.isKinematic (true);
-			}
-		}
-		if(holdingEgg){
-
-		}
 	}
 }

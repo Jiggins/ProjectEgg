@@ -40,6 +40,8 @@ ehthumbs.db
 Thumbs.db
 *.sublime-workspace
 
+Assets/Meshes/Textures/*.meta
+
 Library/CurrentMaximizeLayout.dwlt
 Library/CurrentMaximizeLayout.dwlt
 Assets/Meshes/Textures/Untitled.png.meta
@@ -52,3 +54,13 @@ Assets/Meshes/Textures/t1.png.meta
 Assets/Meshes/Textures/t2.png.meta
 Library/CurrentMaximizeLayout.dwlt
 Library/CurrentLayout.dwlt
+Library/CurrentLayout.dwlt
+Assets/Meshes/Textures/r1.png.meta~HEAD.meta
+Assets/Meshes/Textures/r1.png.meta~HEAD.meta
+Assets/Meshes/Textures/startbkgd.png.meta
+Assets/Meshes/Textures/startfont.png.meta
+Assets/Meshes/Textures/startbkgd.png.meta
+Assets/Meshes/Textures/startbkgd.png.meta
+Assets/Meshes/Textures/r1.png.meta~HEAD.meta
+Library/CurrentLayout.dwlt
+Assets/Meshes/Textures/startfont.png.meta

@@ -1,9 +1,9 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class PlayerController : MonoBehaviour 
 {
-	public bool triggerOn = false;
+	public Light a;
 	public float Speed = 0f;
 	private float moveHorizontal = 0f;
 	private float moveVertical = 0f;
@@ -12,13 +12,13 @@ public class PlayerController : MonoBehaviour
 	
 	// Use this for initialization
 	void Start () {
-		
+
 	}
 	
 	// Update is called once per frame
 	void FixedUpdate () 
 	{
-		
+//		InvokeRepeating( "DecreaseIntensity", 0.02, 0.02 );
 		//Horizaontal Movement
 		moveHorizontal = Input.GetAxis ("Horizontal");
 		Vector3 movement = new Vector3 (moveHorizontal * Speed, moveVertical * Speed, 0f);
@@ -32,8 +32,6 @@ public class PlayerController : MonoBehaviour
 				airbourne = true;
 			}
 		}
-
-	
 	}
 	
 	//Reset the airbourne bool
