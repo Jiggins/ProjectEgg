@@ -17,5 +17,9 @@ public class DoorOpen : MonoBehaviour {
 		if (!GameObject.Find("PlayerController").GetComponent<TriggerScript>().triggerOn) {
 			transform.position = offset;
 		}
+
+		if (GameObject.Find ("PlayerController").GetComponent<TriggerScript> ().triggerOnPerm) {
+			transform.position = offset - (new Vector3 (0,5,0));
+		}
 	}
 }
