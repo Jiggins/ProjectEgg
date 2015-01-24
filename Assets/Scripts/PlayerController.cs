@@ -3,6 +3,7 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour 
 {
+	public bool triggerOn = false;
 	public float Speed = 0f;
 	private float moveHorizontal = 0f;
 	private float moveVertical = 0f;
@@ -31,6 +32,8 @@ public class PlayerController : MonoBehaviour
 				airbourne = true;
 			}
 		}
+
+	
 	}
 	
 	//Reset the airbourne bool
@@ -40,4 +43,20 @@ public class PlayerController : MonoBehaviour
 			airbourne = false;
 		}
 	}
+
+	void OnTriggerEnter (Collider other){
+		if ((other.tag == "Switch")) {
+			triggerOn = true;
+		}
+	}
+	void OnTriggerExit(Collider other){
+		if ((other.tag == "Switch")) {
+			triggerOn = false;
+		}
+	}
+
+
+
+
 }
+
