@@ -5,6 +5,8 @@ public class CharacterMove : MonoBehaviour {
 	public float speed = 1.0f;
 	public	float	jumpHeight = 1.0f;
 	private Vector3 movement;
+
+	public	Collider	eggCollider;
 	
 	private Rigidbody playerRigidbody;
 	[SerializeField]
@@ -22,6 +24,10 @@ public class CharacterMove : MonoBehaviour {
 		playerRigidbody = GetComponent<Rigidbody> ();
 		
 		distToGround 	= collider.bounds.extents.y;
+	}
+
+	void Start () {
+		Physics.IgnoreCollision (eggCollider, transform.collider);
 	}
 
 	void Update () { 

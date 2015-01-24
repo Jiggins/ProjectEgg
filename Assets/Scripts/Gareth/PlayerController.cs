@@ -18,7 +18,6 @@ public class PlayerController : MonoBehaviour
 	// Update is called once per frame
 	void FixedUpdate () 
 	{
-//		InvokeRepeating( "DecreaseIntensity", 0.02, 0.02 );
 		//Horizaontal Movement
 		moveHorizontal = Input.GetAxis ("Horizontal");
 		Vector3 movement = new Vector3 (moveHorizontal * Speed, moveVertical * Speed, 0f);

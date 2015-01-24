@@ -4,6 +4,7 @@ using System.Collections;
 public class TriggerScript : MonoBehaviour {
 
 	public bool triggerOn = false;
+	public bool triggerOnPerm = false;
 	// Use this for initialization
 	void Start () {
 	}
@@ -17,10 +18,14 @@ public class TriggerScript : MonoBehaviour {
 		if ((other.tag == "Switch")) {
 			triggerOn = true;
 		}
+		if ((other.tag == "SwitchPerm")) {
+			triggerOnPerm = true;
+		}
 	}
 	void OnTriggerExit(Collider other){
 		if ((other.tag == "Switch")) {
 			triggerOn = false;
 		}
 	}
+
 }
