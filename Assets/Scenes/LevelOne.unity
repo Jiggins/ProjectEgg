@@ -1953,7 +1953,6 @@ Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD
   m_GameObject: {fileID: 1547985731}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 18.1399994, y: 3.45000005, z: 3.43000007}
@@ -1962,30 +1961,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
 --- !u!1 &1567943218
-=======
-  m_GameObject: {fileID: 1524989349}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 12ea502154b8ad94c9af9bff0ca405e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: .0199999996
-  distance: {x: -9.5, y: 0, z: 0}
---- !u!114 &1524989355
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1524989349}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 12ea502154b8ad94c9af9bff0ca405e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: .200000003
-  distance: {x: -9.5, y: 0, z: 0}
---- !u!1 &1538800285
->>>>>>> origin/master
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
