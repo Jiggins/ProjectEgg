@@ -44,19 +44,5 @@ public class PlayerController : MonoBehaviour
 		}
 	}
 
-	void OnTriggerEnter (Collider other){
-		if ((other.tag == "Switch")) {
-			triggerOn = true;
-		}
-	}
-	void OnTriggerExit(Collider other){
-		if ((other.tag == "Switch")) {
-			triggerOn = false;
-		}
-	}
-
-
-
-
 }
 
