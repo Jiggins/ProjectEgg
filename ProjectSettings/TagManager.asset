@@ -9,6 +9,7 @@ TagManager:
   - Player
   - RespawnTrigger
   - DeathTrigger
+  - DeathPosition
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
