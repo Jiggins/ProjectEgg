@@ -40,6 +40,8 @@ ehthumbs.db
 Thumbs.db
 *.sublime-workspace
 
+Assets/Meshes/Textures/*.meta
+
 Library/CurrentMaximizeLayout.dwlt
 Library/CurrentMaximizeLayout.dwlt
 Assets/Meshes/Textures/Untitled.png.meta
