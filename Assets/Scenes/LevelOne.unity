@@ -549,7 +549,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: a064505a631bde64ca75456ee9793c89, type: 2}
+  - {fileID: 2100000, guid: cfe0c52a8e5bf184c9a04774d3d8bbea, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -1342,7 +1342,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 266eecc3a1b1c8f47a7f33308414ff40, type: 2}
+  - {fileID: 2100000, guid: 87278cf12cd56614395479368b21d71b, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -1412,7 +1412,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: a064505a631bde64ca75456ee9793c89, type: 2}
+  - {fileID: 2100000, guid: e4dbb1707ad0644449dda56ccd35bee7, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -1615,7 +1615,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 477396ec8c90e894d80abc5e01296e7d, type: 2}
+  - {fileID: 2100000, guid: 099a424338a64b449ac7e9cb685b162b, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -1791,7 +1791,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: a064505a631bde64ca75456ee9793c89, type: 2}
+  - {fileID: 2100000, guid: 180b6b4a05e13c34285e906155415b36, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -1861,7 +1861,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: a064505a631bde64ca75456ee9793c89, type: 2}
+  - {fileID: 2100000, guid: eb518a68c7dba834781ffd876257a703, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -2043,84 +2043,26 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1368541858}
   m_Mesh: {fileID: 0}
-<<<<<<< HEAD
 --- !u!1 &1386180315
-=======
---- !u!1 &1369473704
->>>>>>> origin/master
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-<<<<<<< HEAD
   - 4: {fileID: 1386180316}
   m_Layer: 0
   m_Name: DEATH TRIGGERS
-=======
-  - 4: {fileID: 1369473708}
-  - 33: {fileID: 1369473707}
-  - 64: {fileID: 1369473706}
-  - 23: {fileID: 1369473705}
-  m_Layer: 0
-  m_Name: Quad
->>>>>>> origin/master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
 --- !u!4 &1386180316
-=======
---- !u!23 &1369473705
-Renderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1369473704}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
-  m_Materials:
-  - {fileID: 2100000, guid: 087d4b6ec0e17824a9f0a4bdb1b8177d, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!64 &1369473706
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1369473704}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_SmoothSphereCollisions: 0
-  m_Convex: 0
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!33 &1369473707
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1369473704}
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1369473708
->>>>>>> origin/master
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD
   m_GameObject: {fileID: 1386180315}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 10.1346684, y: -6.0298419, z: 8}
@@ -2128,16 +2070,7 @@ Transform:
   m_Children:
   - {fileID: 581243140}
   m_Father: {fileID: 0}
-  m_RootOrder: 23
-=======
-  m_GameObject: {fileID: 1369473704}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.57999992, y: -5.30000019, z: 3.5}
-  m_LocalScale: {x: 25.2975655, y: 9.0771389, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
   m_RootOrder: 24
->>>>>>> origin/master
 --- !u!1 &1503540680
 GameObject:
   m_ObjectHideFlags: 0
@@ -2642,7 +2575,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: a064505a631bde64ca75456ee9793c89, type: 2}
+  - {fileID: 2100000, guid: ffa35bfbeee6e1f4ab1792c2317ee8b1, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -2857,7 +2790,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: a064505a631bde64ca75456ee9793c89, type: 2}
+  - {fileID: 2100000, guid: aca420932f6fc754490b9ff662363fde, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -2997,7 +2930,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: a064505a631bde64ca75456ee9793c89, type: 2}
+  - {fileID: 2100000, guid: af6d96e02677b9045849bff3718dd53e, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -3137,7 +3070,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: a064505a631bde64ca75456ee9793c89, type: 2}
+  - {fileID: 2100000, guid: a7215ec4b3c457d42884cc2ac0fef613, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
