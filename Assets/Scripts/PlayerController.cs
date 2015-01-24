@@ -3,7 +3,6 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour 
 {
-	
 	public float Speed = 0f;
 	private float moveHorizontal = 0f;
 	private float moveVertical = 0f;

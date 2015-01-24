@@ -2,8 +2,17 @@
 # Unity generated #
 # =============== #
 Temp/
-Library/
-
+Library/AssetImportState
+Library/AssetServerCacheV3
+Library/FailedAssetImports.txt
+Library/ScriptAssemblies
+Library/ScriptMapper
+Library/assetDatabase3
+Library/cache
+Library/expandedItems
+Library/metadata
+Library/previews
+Library/guidmapper
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
 # ===================================== #
@@ -18,7 +27,6 @@ obj/
 *.user
 *.unityproj
 *.booproj
-
 # ============ #
 # OS generated #
 # ============ #
