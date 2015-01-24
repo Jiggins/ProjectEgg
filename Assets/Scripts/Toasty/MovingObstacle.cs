@@ -37,11 +37,14 @@ public class MovingObstacle : MonoBehaviour {
 	}
 
 
-	void OnCollisionEnter(Collision collision){
+	void OnCollisionStay(Collision collision){
 
 		if (collision.gameObject.tag == "Player"){
 
-			collision.transform.position = transform.position;
+			Vector3 trans = collision.transform.position;
+
+			trans.x = transform.position.x;
+			collision.transform.position = trans;
 
 		}
 
