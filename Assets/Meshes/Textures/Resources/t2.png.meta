@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Meshes/Textures/Resources/t2.png.meta
 guid: b85d754f80015c84c9626ecb6b779336
+=======
+guid: dfeb262facb13c34aabf7e398b7ddab8
+>>>>>>> origin/master:Assets/Meshes/Textures/Resources/t2.png.meta
 TextureImporter:
   fileIDToRecycleName: {}
   serializedVersion: 2

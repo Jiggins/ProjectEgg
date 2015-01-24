@@ -1,7 +1,12 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: cc40c91df4c131d4389cd100e5d0a591
 TextureImporter:
   fileIDToRecycleName: {}
+=======
+guid: 7e3ec162cbd371a44828c94cc04fb2b3
+TextureImporter:
+>>>>>>> origin/master
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
