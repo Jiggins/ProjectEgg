@@ -5,8 +5,6 @@ public class CharacterMove : MonoBehaviour {
 	public float speed = 1.0f;
 	public	float	jumpHeight = 1.0f;
 	private Vector3 movement;
-
-	private Transform characterHands;
 	
 	private Rigidbody playerRigidbody;
 	[SerializeField]
@@ -24,8 +22,6 @@ public class CharacterMove : MonoBehaviour {
 		playerRigidbody = GetComponent<Rigidbody> ();
 		
 		distToGround 	= collider.bounds.extents.y;
-
-		characterHands 	= GetComponent<Transform> ();
 	}
 
 	void Update () { 
@@ -53,7 +49,7 @@ public class CharacterMove : MonoBehaviour {
 		movement = movement.normalized * speed * Time.deltaTime;
 		
 		if(jump && IsGrounded()){
-			Debug.Log ("Jumping!");
+
 			rigidbody.AddForce(new Vector3(0.0f,jumpHeight,0.0f), ForceMode.Impulse);
 		}
 		
