@@ -24,15 +24,17 @@ public class PlayerController : MonoBehaviour
 		Vector3 movement = new Vector3 (moveHorizontal * Speed, moveVertical * Speed, 0f);
 		rigidbody.MovePosition (rigidbody.position + movement * Time.deltaTime);
 		
+		//Jumping
 		if (!airbourne) 
 		{
-			if (Input.GetButtonDown ("Fire1")) {
+			if (Input.GetButtonDown ("Fire1") || Input.GetButtonDown("Jump")) {
 				rigidbody.AddForce (Vector3.up * jump * Time.deltaTime);
 				airbourne = true;
 			}
 		}
 	}
 	
+	//Reset the airbourne bool
 	void OnCollisionEnter(Collision collision)
 	{
 		if (collision.gameObject.tag == "Floor") {
