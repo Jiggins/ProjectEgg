@@ -10,11 +10,11 @@ public class DoorOpen : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (GameObject.Find("PlayerController").GetComponent<PlayerController>().triggerOn) {
+		if (GameObject.Find("PlayerController").GetComponent<TriggerScript>().triggerOn) {
 			transform.position = offset - (new Vector3 (0,5,0));
 			}
 
-		if (!GameObject.Find("PlayerController").GetComponent<PlayerController>().triggerOn) {
+		if (!GameObject.Find("PlayerController").GetComponent<TriggerScript>().triggerOn) {
 			transform.position = offset;
 		}
 	}
