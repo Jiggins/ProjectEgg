@@ -18,7 +18,7 @@ public class TriggerScript : MonoBehaviour {
 		if ((other.tag == "Switch")) {
 			triggerOn = true;
 		}
-		else if ((other.tag == "SwitchPerm")) {
+		if ((other.tag == "SwitchPerm")) {
 			triggerOnPerm = true;
 		}
 	}
