@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Meshes/Textures/mchar_parts.png.meta
+guid: e8ec94f58faabe74b9e1fabadfe9600c
+=======
 guid: 5114f6d17ba99534ab90609ac4fe6884
+>>>>>>> 0f2150cbb54f7d5529b56419a538609a98114b32:Assets/Meshes/Textures/mchar_parts.png.meta
 TextureImporter:
   fileIDToRecycleName: {}
   serializedVersion: 2

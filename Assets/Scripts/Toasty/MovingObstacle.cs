@@ -14,6 +14,7 @@ public class MovingObstacle : MonoBehaviour {
 	void Start () {
 		startPosition = transform.position;
 		endPosition= distance + startPosition;
+
 	}
 	
 	// Update is called once per frame
@@ -33,5 +34,16 @@ public class MovingObstacle : MonoBehaviour {
 			transform.position = Vector3.MoveTowards(transform.position, startPosition, speed);
 		}
 		
+	}
+
+
+	void OnCollisionEnter(Collision collision){
+
+		if (collision.gameObject.tag == "Player"){
+
+			collision.transform.position = transform.position;
+
+		}
+
 	}
 }
