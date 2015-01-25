@@ -46,6 +46,14 @@ public class CharacterMove : MonoBehaviour {
 		
 		bool jump 		= Input.GetButton ("Jump");
 
+		if (Input.GetButtonDown("Fire2")) {
+			Application.LoadLevel("LevelTwo");
+		}
+
+		if (Input.GetButtonDown("Fire3")) {
+			Application.LoadLevel("LevelThree");
+		}
+
 
 		
 		// Move the player around the scene.

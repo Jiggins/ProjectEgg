@@ -2,9 +2,10 @@
 using System.Collections;
 
 public class TriggerScript : MonoBehaviour {
-
-	public bool triggerOn = false;
-	public bool triggerOnPerm = false;
+	public float trigCount      = 0;
+	public bool triggerOn        = false;
+	public bool triggerOnPerm    = false;
+	public bool triggerOnPermFin = false;
 	// Use this for initialization
 	void Start () {
 	}
@@ -21,7 +22,12 @@ public class TriggerScript : MonoBehaviour {
 		if ((other.tag == "SwitchPerm")) {
 			triggerOnPerm = true;
 		}
+		if ((other.tag == "SwitchPermFin")) {
+			triggerOnPermFin = true;
+			trigCount++;
+		}
 	}
+
 	void OnTriggerExit(Collider other){
 		if ((other.tag == "Switch")) {
 			triggerOn = false;

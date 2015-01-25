@@ -20,5 +20,7 @@ public class Egg : MonoBehaviour {
 			transform.rotation = characterHands.rotation;
 		}
 
+		transform.position = new Vector3 (transform.position.x, transform.position.y, 0);
+
 	}
 }
