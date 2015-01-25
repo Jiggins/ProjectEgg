@@ -7,15 +7,12 @@ TagManager:
   - Egg
   - MovingPlatform
   - Player
-<<<<<<< HEAD
-  - RespawnTrigger
-  - DeathTrigger
-  - DeathPosition
-=======
   - DeathTrigger
   - Switch
   - SwitchPerm
->>>>>>> c5bdf94a4b6c8c005f1aa98b8cd747a34204122d
+  - 
+  - RespawnTrigger
+  - DeathPosition
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
@@ -25,8 +22,8 @@ TagManager:
   Builtin Layer 5: UI
   Builtin Layer 6: 
   Builtin Layer 7: 
-  User Layer 8: invisibleToCamera
-  User Layer 9: 
+  User Layer 8: doNotDisplay
+  User Layer 9: eggLayer
   User Layer 10: 
   User Layer 11: 
   User Layer 12: 
