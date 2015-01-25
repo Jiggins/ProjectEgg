@@ -36,6 +36,18 @@ public class MovingObstacle : MonoBehaviour {
 		
 	}
 
+	void OnCollisionEnter(Collision other) { 
+				if (other.gameObject.tag == "Player") { 
+						other.transform.parent = transform; 
+				} 
+		}
+		void OnCollisionExit (Collision other) { 
+				if (other.gameObject.tag == "Player") { 
+						other.transform.parent = null; 
+				} 
+		}
+	}
+
 
 //		void OnTriggerEnter (Collider other){
 //
@@ -50,5 +62,5 @@ public class MovingObstacle : MonoBehaviour {
 //
 //		}
 
-}
+
 
